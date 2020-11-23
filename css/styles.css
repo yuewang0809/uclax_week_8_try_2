@@ -36,8 +36,7 @@ body {
   body .button {
     font-size: 10px;
     font-weight: 700; }
-span{
-  color:white;}
+
 .nav-hero {
   background: #23b4f5;
   color: white;
@@ -198,6 +197,9 @@ span{
       color: white;
       padding-top: 5rem;
       padding-bottom: 7rem; }
+       .sub-words{
+         color:white;
+       }
       .subscribe .user-email {
         border: none;
         background-color: rgba(146, 146, 146, 0.33);
