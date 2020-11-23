@@ -1,0 +1,266 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 400; }
+  body h1 {
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -4px;
+    padding-top: 8rem; }
+  body h4 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 7rem;
+    padding-right: 12rem; }
+  body h5 {
+    font-size: 17px;
+    font-weight: 700; }
+  body h2 {
+    font-weight: 700;
+    font-size: 44px;
+    padding-right: 1rem;
+    padding-left: 1rem; }
+  body h3 {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px; }
+  body h5 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #747474;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 1rem;
+    padding-bottom: 3rem; }
+  body .button {
+    font-size: 10px;
+    font-weight: 700; }
+span{
+  color:white;}
+.nav-hero {
+  background: #23b4f5;
+  color: white;
+  padding-top: 3rem; }
+
+.nav .awesome-app {
+  letter-spacing: 0;
+  font-size: 16px;
+  padding-left: 0.8rem;
+  font-weight: 700;
+  color: white; }
+
+.nav ul {
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 0; }
+
+.nav ul li {
+  display: inline;
+  padding-left: 20px; }
+
+.nav .nav-links {
+  color: white;
+  padding-bottom: 5px; }
+
+.nav .nav-links:hover {
+  text-decoration: none;
+  border-bottom-color: white;
+  border-bottom-width: 3px;
+  border-bottom-style: solid; }
+
+.hero {
+  padding-bottom: 1rem;
+  background: #0cb3f8;
+  color: white; }
+
+.hero-words {
+  padding-left: 10%; }
+
+.button-download {
+  margin-left: 1rem;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px; }
+
+.button-download:hover {
+  background-color: white;
+  color: #222222;
+  box-shadow: 10px 5px 8px rgba(34, 34, 34, 0.33); }
+
+.button-learn-more {
+  margin-left: 1rem;
+  background-color: transparent;
+  margin-left: 30px;
+  color: white;
+  letter-spacing: 1px;
+  border: none; }
+
+.button-learn-more:hover {
+  border-bottom-color: white;
+  border-bottom-width: 3px;
+  border-bottom-style: solid; }
+
+.hero-bottom {
+  color: white;
+  font-size: 13px;
+  margin-top: 5.5rem; }
+
+.button-new {
+  background-color: #268df5;
+  font-size: 9px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 10px 5px 8px rgba(38, 141, 245, 0.5);
+  letter-spacing: 1px; }
+
+  .new-big-thing {
+      background-color: #f5f4f4;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      font-size: 13px; }
+
+  .content-text {
+      padding-left: 8%;
+      padding-right: 8%; }
+      .content-text p {
+        margin-bottom: 5rem;
+      }
+      .pricing {
+        color: white;
+        background-color: #222222;
+        padding-top: 5rem;
+        padding-bottom: 7rem; }
+        .pricing .pricing-headers {
+          font-size: 12px;
+          font-weight: 700;
+          padding-bottom: 1rem; }
+        .pricing .rates {
+          font-size: 44px; }
+        .pricing ul {
+          list-style: none;
+          padding-left: 0;
+          font-size: 14px; }
+          .pricing ul li {
+            padding-bottom: 0.5rem; }
+
+        .pricing .pricing-container {
+          padding-left: 10%;
+          padding-right: 10%; }
+        .pricing .pricing-box {
+          background-color: white;
+          border-radius: 5px;
+          color: #222222;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-top: 3rem;
+          padding-bottom: 3rem; }
+        .pricing .pricing-box-alt {
+          background-color: #268df5;
+          color: white; }
+
+      @media (max-width: 767px) {
+        .pricing-box {
+          margin-bottom: 3rem; } }
+
+      .pricing-button {
+        margin-left: 1rem;
+        color: #222222;
+        background-color: white;
+        border-color: #268df5;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 20px;
+        letter-spacing: 1px; }
+
+      .pricing-button:hover {
+        color: white;
+        background-color: #268df5;
+        border-color: white; }
+
+        .subscribe {
+      background-image: url("../images/cliff.png");
+      background-size: cover;
+      color: white;
+      padding-top: 5rem;
+      padding-bottom: 7rem; }
+      .subscribe .user-email {
+        border: none;
+        background-color: rgba(146, 146, 146, 0.33);
+        border-radius: 5px;
+        padding: 0.8rem;
+        font-size: 11px;
+        width: 350px; }
+
+      .subscribe .email-button {
+        background-color: white;
+        border: none;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: 700;
+        box-shadow: 10px 5px 8px #222222;
+        letter-spacing: 1px;
+        margin-left: -20px; }
+
+    ::placeholder {
+      color: white; }
+
+    input[type=text] {
+      color: white; }
+
+      footer {
+        padding-top: 3rem; }
+
+      .bottom-nav {
+        margin-bottom: 5rem; }
+        .bottom-nav div ul {
+          list-style: none; }
+          .bottom-nav div ul li {
+            font-weight: 700;
+            font-size: 11px;
+            display: inline;
+            padding-left: 1rem;
+            padding-right: 1rem; }
+
+      .social-media {
+        padding-left: 1rem; }
+
+      .bottom-nav-links {
+        color: #222222; }
+
+      .bottom-nav-links:hover {
+        text-decoration: none;
+        border-bottom-style: solid;
+        border-bottom-color: #222222;
+        border-bottom-width: 3px; }
+
+      .footer-description {
+        color: #747474;
+        font-size: 11px; }
+
+
+      .email-form {
+        padding-left: 30px;
+        padding-right: 30px; }
+
+
+      .bottom-ul {
+        padding-left: 0; }
