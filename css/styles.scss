@@ -123,6 +123,7 @@ h2 {
   }
 
 .hero-bottom {
+    background-color: white;
     color: white;
     font-size: 13px;
     margin-top: 5.5rem;
@@ -141,7 +142,9 @@ h2 {
     box-shadow: 10px 5px 8px rgba(38, 141, 245, 0.5);
     letter-spacing: 1px;
   }
-
+.new-words{
+  color: black;
+}
 .new-big-thing {
     background-color: #f5f4f4;
     padding-top: 5rem;

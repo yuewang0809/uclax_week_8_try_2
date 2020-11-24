@@ -108,10 +108,13 @@ body {
   border-bottom-style: solid; }
 
 .hero-bottom {
+  background-color: white;
   color: white;
   font-size: 13px;
   margin-top: 5.5rem; }
 
+.new-words{
+    color: black;}
 .button-new {
   background-color: #268df5;
   font-size: 9px;
