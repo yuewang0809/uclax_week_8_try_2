@@ -71,13 +71,12 @@ body {
 
 .hero {
   padding-bottom: 1rem;
-  background: #0cb3f8;
-  color: white; }
+  color: white;}
 
-.hero-words {
+.hero .hero-words {
   padding-left: 10%; }
 
-.button-download {
+.hero .button-download {
   margin-left: 1rem;
   color: white;
   background-color: transparent;
@@ -89,12 +88,12 @@ body {
   border-radius: 20px;
   letter-spacing: 1px; }
 
-.button-download:hover {
+.hero .button-download:hover {
   background-color: white;
   color: #222222;
   box-shadow: 10px 5px 8px rgba(34, 34, 34, 0.33); }
 
-.button-learn-more {
+.hero .button-learn-more {
   margin-left: 1rem;
   background-color: transparent;
   margin-left: 30px;
@@ -102,20 +101,18 @@ body {
   letter-spacing: 1px;
   border: none; }
 
-.button-learn-more:hover {
+.hero .button-learn-more:hover {
   border-bottom-color: white;
   border-bottom-width: 3px;
   border-bottom-style: solid; }
 
-.hero-bottom {
-  background-color: white;
-  color: white;
+.hero .hero-bottom {
+  color: #222222;
   font-size: 13px;
   margin-top: 5.5rem; }
 
-.new-words{
-    color: black;}
-.button-new {
+.hero .button-new {
+  margin-top: 0.5rem;
   background-color: #268df5;
   font-size: 9px;
   color: white;
@@ -127,6 +124,10 @@ body {
   padding-right: 20px;
   box-shadow: 10px 5px 8px rgba(38, 141, 245, 0.5);
   letter-spacing: 1px; }
+
+.hero .button-new:hover {
+      background-color: white;
+      color: #268df5; }
 
   .new-big-thing {
       background-color: #f5f4f4;
