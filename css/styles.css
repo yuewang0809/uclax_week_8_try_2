@@ -78,8 +78,8 @@ body {
 
 .hero .button-download {
   margin-left: 1rem;
-  color: white;
   background-color: transparent;
+  color:white;
   border-color: white;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
@@ -91,8 +91,7 @@ body {
 .hero .button-download:hover {
   background-color: white;
   color: #222222;
-  box-shadow: 10px 5px 8px rgba(34, 34, 34, 0.33); }
-
+  border-color:#268df5;}
 .hero .button-learn-more {
   margin-left: 1rem;
   background-color: transparent;
@@ -106,10 +105,14 @@ body {
   border-bottom-width: 3px;
   border-bottom-style: solid; }
 
-.hero .hero-bottom {
+.hero .hero-button {
+  background-color:white;
   color: #222222;
   font-size: 13px;
-  margin-top: 5.5rem; }
+  margin-top: 5.5rem;
+  margin-bottom:-3rem;
+  margin-left:0;
+   }
 
 .hero .button-new {
   margin-top: 0.5rem;
